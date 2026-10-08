@@ -1,0 +1,142 @@
+[
+  {
+    "group": "work",
+    "status": "soon",
+    "file": "visor-urbano.tsx",
+    "es": {
+      "title": "Visor Urbano",
+      "description": "Plataforma para digitalizar el trámite de habilitación de comercios de un municipio.",
+      "role": "Refactoricé y evolucioné el código base provisto."
+    },
+    "en": {
+      "title": "Visor Urbano",
+      "description": "Platform to digitalize the business licensing process of a municipality.",
+      "role": "I refactored and evolved the provided codebase."
+    },
+    "stack": [
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "repo": "",
+    "repoPrivate": true,
+    "demo": ""
+  },
+  {
+    "group": "work",
+    "status": "production",
+    "file": "turismo-municipal.tsx",
+    "es": {
+      "title": "Portal de turismo municipal",
+      "description": "Sitio web de turismo de la localidad con información de lugares, historia y actividades.",
+      "role": "Tareas de mantenimiento y mejoras."
+    },
+    "en": {
+      "title": "Municipal tourism portal",
+      "description": "Local tourism website with information about places, history and activities.",
+      "role": "Maintenance work and improvements."
+    },
+    "stack": [
+      "React",
+      "Node.js",
+      "Express",
+      "PostgreSQL"
+    ],
+    "repo": "",
+    "demo": "https://turismoloberia.tur.ar/"
+  },
+  {
+    "group": "work",
+    "status": "development",
+    "file": "reservas-camping.php",
+    "es": {
+      "title": "Reservas de camping municipal",
+      "description": "Sistema de reservas de turnos para el camping municipal, con notificaciones por email y comprobantes en PDF.",
+      "role": "Desarrollo de una nueva versión (la que está en producción es una versión anterior)."
+    },
+    "en": {
+      "title": "Municipal campsite booking",
+      "description": "Booking system for the municipal campsite, with email notifications and PDF receipts.",
+      "role": "Development of a new version (the one in production is an earlier version)."
+    },
+    "stack": [
+      "PHP",
+      "JavaScript",
+      "Docker"
+    ],
+    "repo": "",
+    "repoPrivate": true,
+    "demo": ""
+  },
+  {
+    "group": "academic",
+    "status": "notDeployed",
+    "file": "farmacy-food.java",
+    "es": {
+      "title": "Farmacy Food",
+      "description": "eCommerce para que personas en sus casas puedan cocinar viandas saludables, publicarlas en la web y que estén a la venta para cualquier persona.",
+      "role": "Proyecto universitario con arquitectura de microservicios."
+    },
+    "en": {
+      "title": "Farmacy Food",
+      "description": "eCommerce where people can cook healthy meals at home, publish them on the web and sell them to anyone.",
+      "role": "University project with a microservices architecture."
+    },
+    "stack": [
+      "Spring Boot",
+      "React",
+      "Tailwind",
+      "Docker"
+    ],
+    "repo": "https://github.com/fiorelladifiore/farmacy-food",
+    "demo": ""
+  },
+  {
+    "group": "academic",
+    "status": "deployed",
+    "file": "vivero.ts",
+    "es": {
+      "title": "Vivero",
+      "description": "Sitio web de un vivero hecho con Angular, sin backend real, para explorar y consultar plantas.",
+      "role": "Proyecto personal de frontend."
+    },
+    "en": {
+      "title": "Plant nursery",
+      "description": "Plant nursery website built with Angular, without a real backend, to browse and look up plants.",
+      "role": "Personal frontend project."
+    },
+    "stack": [
+      "Angular",
+      "TypeScript",
+      "Bootstrap",
+      "SCSS"
+    ],
+    "repo": "https://github.com/fiorelladifiore/Vivero-angular-project",
+    "demo": "https://fiorelladifiore.github.io/Vivero-angular-project/"
+  },
+  {
+    "group": "academic",
+    "status": "notDeployed",
+    "file": "tienda-ropa.php",
+    "es": {
+      "title": "Tienda de ropa",
+      "description": "Sitio de una tienda de ropa para ver e interactuar con los productos, con base de datos MySQL y relación tienda-prendas.",
+      "role": "Trabajo práctico de Web 2, realizado en pareja."
+    },
+    "en": {
+      "title": "Clothing store",
+      "description": "Clothing store website to browse and interact with products, with a MySQL database and a store-to-garments relationship.",
+      "role": "Web 2 course project, done as a pair."
+    },
+    "stack": [
+      "PHP",
+      "Smarty",
+      "MySQL",
+      "CSS"
+    ],
+    "repo": "https://github.com/fiorelladifiore/proyectoTiendaDeRopa",
+    "demo": ""
+  }
+]

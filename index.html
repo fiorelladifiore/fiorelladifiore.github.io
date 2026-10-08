@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiorella Di Fiore — Desarrolladora Full Stack</title>
+  <meta name="description" content="Portafolio de Fiorella Di Fiore, desarrolladora full stack. Proyectos, skills y contacto.">
+  <meta property="og:title" content="Fiorella Di Fiore — Desarrolladora Full Stack">
+  <meta property="og:description" content="Portafolio de desarrolladora full stack. Proyectos, skills y contacto.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Aplica el tema antes de pintar para evitar parpadeo
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Fiorella Di Fiore">FDF<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menú">☰</button>
+      <nav id="nav" class="nav" aria-label="Principal">
+        <a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+        <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+        <div class="controls">
+          <button class="btn-ghost" id="lang-toggle" aria-label="Change language">EN</button>
+          <button class="btn-ghost" id="theme-toggle" aria-label="Cambiar tema">◐</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="inicio" class="container hero">
+      <div class="hero-text">
+        <p class="mono eyebrow" data-i18n="hero.eyebrow">Hola! soy</p>
+        <h1><span class="marker"><i>Fiorella Di Fiore</i></span></h1>
+        <p class="mono role" data-i18n="hero.role">Desarrolladora Full Stack</p>
+        <p class="lead" data-i18n="hero.lead">Construyo aplicaciones web de punta a punta, del diseño de la base de datos a la interfaz.</p>
+        <div class="cta">
+          <a class="btn" href="#proyectos" data-i18n="hero.cta_projects">Ver proyectos</a>
+          <a class="btn btn-outline" href="assets/fiorellaDiFioreCV_ES.pdf" id="cv-link" download data-i18n="hero.cta_cv">Descargar CV</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar">
+            <i class="dot dot-pink"></i><i class="dot dot-sand"></i><i class="dot dot-sage"></i>
+            <span class="mono">~/developer/log</span>
+          </div>
+          <div class="terminal-body mono">
+            <p><span class="c-pink">$</span> git log --oneline</p>
+            <p><span class="c-sand">a1b2c3d</span> init: hello world</p>
+            <p><span class="c-sand">e4f5g6h</span> feat: learned javascript</p>
+            <p><span class="c-sand">i7j8k9l</span> feat: built first rest api</p>
+            <p><span class="c-sand">m0n1o2p</span> commit: <span class="c-sage">unicen enrollment</span></p>
+            <p><span class="c-pink">&gt;</span> <span class="cursor"></span></p>
+          </div>
+        </div>
+
+        <!-- Foto: guardá tu imagen como assets/foto.jpg (4:5 recomendado). Si no existe, se ve el placeholder. -->
+        <figure class="photo">
+          <div class="photo-inner">
+            <svg class="photo-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7.5 6.5H5a2 2 0 0 0-2 2V18a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a2 2 0 0 0-2-2h-2.5z"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <figcaption class="mono" data-i18n="hero.photo">tu foto aquí</figcaption>
+            <img src="assets/picofme.png" alt="Fiorella Di Fiore" onerror="this.remove()">
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="container section">
+      <header class="section-head">
+        <span class="mono label" data-i18n="about.label">01 · Sobre mí</span>
+        <h2 data-i18n="about.title">Sobre mí</h2>
+      </header>
+      <div class="about-grid">
+        <div class="prose">
+          <p data-i18n="about.p1">Soy una desarrolladora apasionada por crear interfaces intuitivas y sistemas robustos.</p>
+          <p data-i18n="about.p2">Estoy en la etapa final de mi tecnicatura y busco mi primer empleo IT o pasantía.</p>
+        </div>
+        <aside class="card edu">
+          <p class="mono small edu-label">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M3 12h5.5M15.5 12H21"/></svg>
+            <span data-i18n="about.edu_label">Formación</span>
+          </p>
+          <h3 data-i18n="about.edu_title">Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas</h3>
+          <p class="mono small edu-dates" data-i18n="about.edu_dates">Ingreso 2023 · Cursada completa 2026</p>
+          <p data-i18n="about.edu_school">UNICEN · Tandil, Argentina</p>
+          <p class="badge mono" data-i18n="about.edu_status">En curso · egreso próximo</p>
+          <p class="edu-doc mono small" data-i18n="about.edu_doc">Avance de carrera disponible a pedido</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="proyectos" class="container section">
+      <header class="section-head">
+        <span class="mono label" data-i18n="projects.label">02 · Proyectos</span>
+        <h2 data-i18n="projects.title">Proyectos</h2>
+      </header>
+      <div class="project-group">
+        <h3 class="mono group-title" data-i18n="projects.group_work">Trabajo real</h3>
+        <div id="projects-work" class="grid grid-3" aria-live="polite"></div>
+      </div>
+      <div class="project-group">
+        <h3 class="mono group-title" data-i18n="projects.group_academic">Proyectos académicos y personales</h3>
+        <div id="projects-academic" class="grid grid-3" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <header class="section-head">
+        <span class="mono label" data-i18n="skills.label">03 · Skills</span>
+        <h2 data-i18n="skills.title">Skills</h2>
+      </header>
+      <div class="grid grid-4 skills">
+        <div><h3 class="mono skill-title" data-i18n="skills.languages">Lenguajes de programación</h3><ul class="tags"><li>Java</li><li>JavaScript</li><li>PHP</li><li>Python</li><li>SQL</li><li>TypeScript</li></ul></div>
+        <div><h3 class="mono skill-title" data-i18n="skills.frontend">Frontend</h3><ul class="tags"><li>Angular</li><li>Bootstrap</li><li>CSS3</li><li>HTML5</li><li>React</li></ul></div>
+        <div><h3 class="mono skill-title" data-i18n="skills.backend">Backend</h3><ul class="tags"><li>FastAPI</li><li>Spring boot</li><li>Python</li><li>REST APIs</li></ul></div>
+        <div><h3 class="mono skill-title" data-i18n="skills.db">Bases de datos</h3><ul class="tags"><li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li></ul></div>
+        <div><h3 class="mono skill-title" data-i18n="skills.tools">Herramientas</h3><ul class="tags"><li>Bruno</li><li>Docker</li><li>Git</li><li>GitHub</li><li>Node.js</li><li>Postman</li><li>Trello</li><li>Jira</li><li>Claude</li><li>Opencode</li></ul></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="container section">
+      <header class="section-head">
+        <span class="mono label" data-i18n="contact.label">04 · Contacto</span>
+      </header>
+      <h2 class="contact-title"><span data-i18n="contact.h1">¿Charlamos?</span><br><i class="muted" data-i18n="contact.h2">Escribime.</i></h2>
+      <ul class="contact-list">
+        <li><a class="link-arrow" href="mailto:difiore8fiorella@gmail.com"><span>difiore8fiorella@gmail.com</span> ↗</a></li>
+        <li><a class="link-arrow" href="https://www.linkedin.com/in/fiorella-di-fiore" target="_blank" rel="noopener"><span>LinkedIn</span> ↗</a></li>
+        <li><a class="link-arrow" href="https://github.com/fiorelladifiore" target="_blank" rel="noopener"><span>GitHub</span> ↗</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="mono">© <span id="year"></span> Fiorella Di Fiore</p>
+      <a class="mono" href="#inicio"><span data-i18n="footer.top">volver arriba</span> ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
