@@ -5,19 +5,20 @@
     "file": "visor-urbano.tsx",
     "es": {
       "title": "Visor Urbano",
-      "description": "Plataforma para digitalizar el trámite de habilitación de comercios de un municipio.",
-      "role": "Refactoricé y evolucioné el código base provisto."
+      "description": "Plataforma para digitalizar el trámite de habilitación de comercios de la Municipalidad de Lobería, con mapa interactivo y reglas de uso del suelo por zona.",
+      "role": "Adapté la plataforma a los procesos del municipio: formulario de solicitud con mapa, clasificación de grado por zona, flujo completo del trámite, panel de supervisión, envío de mails, seguridad (CSRF y sesiones), tests y despliegue."
     },
     "en": {
       "title": "Visor Urbano",
-      "description": "Platform to digitalize the business licensing process of a municipality.",
-      "role": "I refactored and evolved the provided codebase."
+      "description": "Platform to digitalize the business licensing process of the Municipality of Lobería, with an interactive map and zoning-based land use rules.",
+      "role": "I adapted the platform to the municipality's processes: map-based application form, zoning-based classification, the full licensing workflow, a supervision dashboard, email delivery, security (CSRF and sessions), tests and deployment."
     },
     "stack": [
       "FastAPI",
       "React",
       "TypeScript",
       "PostgreSQL",
+      "PostGIS",
       "Docker"
     ],
     "repo": "",
